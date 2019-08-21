@@ -9,7 +9,7 @@ def test_ints():
 def test_zero():
     num_list = [3,0,3]
     obs = mean(num_list)
-    exp = 3
+    exp = 2
     assert obs == exp
 
 def test_neg():
